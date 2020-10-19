@@ -1,0 +1,60 @@
+.list {
+	border-collapse: collapse;
+	width: 100%;
+	border-top: 1px solid #BFBFBF;
+	border-left: 1px solid #BFBFBF;
+	font-family: Tahoma; 
+	font-size: 8pt;
+}
+.list td {
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+.list th {
+	background-color: #4b5b6b; 
+	border-right:1px solid #DDDDDD;
+	color:#FFFFFF;
+	padding: 5px 5px; 
+	text-transform: capitalize;
+}
+.list tbody a {
+	text-decoration: none;
+}
+.list tbody td {
+	vertical-align: middle;
+	padding-left: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.list tbody tr:odd {
+	background: #FFFFFF;
+}
+.list tbody tr:even {
+	background: #E4EEF7;
+}
+.list .left {
+	text-align: left;
+	padding: 7px;
+}
+.list .right {
+	text-align: right;
+	padding: 7px;
+}
+.list .center {
+	text-align: center;
+	padding: 7px;
+}
+
+/** PAGINATION **/
+.pagination{padding: 10px 0;font-size: 11px; 	border-top:2px solid #4D4D4D;  }
+.pagination a {padding: 4px 5px; color: #333; margin: 0 1px; background:#efefef; border:1px solid #ddd; text-decoration: none;}
+.pagination a:hover {background:#666; color: #fff; border:1px solid #333;}
+.pagination strong {font-weight:bold;padding: 4px 5px; margin: 0 1px; border:1px solid #888888;}
+.pagination-info{font-size:11px; padding: 6px 0 0 0;}
+#paging{
+	font-family: Tahoma; 
+	font-size: 8pt; 
+}
+/** SOSIAL - NETWORK **/
+label.sosial-network { margin-top:-10px;padding-left:12px;font-size:10px; }
+label.sosial-network span{ font-style:italic;font-weight:bold; }
