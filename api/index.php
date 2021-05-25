@@ -1,1 +1,1 @@
-<?php echo 'Coba'; ?>
+<?php phpinfo(); ?>
